@@ -1,13 +1,18 @@
 ---
 layout: post
+related: true
 title:  "欢迎来我的博客!"
-categories: [blog, home]
+categories: [post, home]
 tags: [winter, xian]
+author_profile: false
 ---
 
-# Welcome
+# 欢迎
+<!-- 
+Linking to postsPermalink
+If you want to include a link to a post on your site, the post_url tag will generate the correct permalink URL for the post you specify.
 
-**Hello world**, 这是我的第一个博客.
+{% post_url 2010-07-21-name-of-post %} -->
+
+这是我的第一个博客.
 ![yezinahua](/assets/images/yezinahua.jpg)
-
-I hope you like it!

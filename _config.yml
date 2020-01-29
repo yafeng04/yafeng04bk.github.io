@@ -19,7 +19,7 @@ locale                   : "zh-CN"
 title                    : "博客"
 title_separator          : "-"
 subtitle                 : "生活记录"
-name                     : "冯杨"
+name                     : "yafeng"
 description              : ""
 url                      : "https://yafeng04.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "冯杨"
+  name             : "yafeng"
   avatar           : "/assets/images/pikaqiu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "China"
@@ -293,3 +293,10 @@ defaults:
       comments: # true  
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
