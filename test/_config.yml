@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme                    : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "zh-CN"
-title                    : "博客"
+locale                   : "en-US"
+title                    : "Minimal Mistakes"
 title_separator          : "-"
-subtitle                 : "生活记录"
-name                     : "yafeng"
-description              : ""
-url                      : "https://yafeng04.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "yafeng04/yafeng04.github.io"
+subtitle                 : "Development Test Site"
+name                     : "Your Name"
+description              : "Minimal Mistakes theme test."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/test"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "博客" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -71,21 +71,21 @@ bing_site_verification   :
 yandex_site_verification :
 
 # Social Sharing
-# twitter:
-#   username               : "mmistakes"
-# facebook:
-#   username               :
-#   app_id                 :
-#   publisher              :
-# og_image                 : "/assets/images/bio-photo.jpg"
-# # For specifying social profiles
-# # - https://developers.google.com/structured-data/customize/social-profiles
-# social:
-#   type                   : # Person or Organization (defaults to Person)
-#   name                   : # If the user or organization name differs from the site's name
-#   links: # An array of links to social media profiles
-#     - https://twitter.com/
-#     - https://github.com/
+twitter:
+  username               : "mmistakes"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/bio-photo.jpg"
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - https://twitter.com/
+    - https://github.com/
 
 # Analytics
 analytics:
@@ -95,38 +95,38 @@ analytics:
 
 
 # Site Author
-# author:
-#   name             : "Your Name"
-#   avatar           : "/assets/images/bio-photo.jpg"
-#   bio              : "I am an **amazing** person."
-#   location         : "Somewhere"
-#   links:
-#     - label: "Your Website"
-#       icon: "fas fa-fw fa-link"
-#       url: "https://your-site.com"
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+author:
+  name             : "Your Name"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  links:
+    - label: "Your Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://your-site.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
 # Site Footer
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 
 # Reading Files
@@ -276,7 +276,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       share: true
       related: true
